@@ -1,0 +1,23 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, LiesAuer
+# This file is distributed under the same license as the EPPlus4PHP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: EPPlus4PHP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-26 21:07+0800\n"
+"PO-Revision-Date: 2018-09-26 21:12+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Last-Translator: LiesAuer <liesauer@liesauer.net>\n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.1.1\n"
+
+#: ../../source/index.rst:2
+msgid "Welcome to EPPlus4PHP's documentation!"
+msgstr "Welcome to EPPlus4PHP's documentation!"
