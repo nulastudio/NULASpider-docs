@@ -23,7 +23,10 @@ NULASpider手册
 .. toctree::
    :caption: Exporter
 
+   Exporter <exporter>
    ExcelExporter <exporter/excelexporter>
+   PrintOutExporter <exporter/printoutexporter>
+   PDOExporter <exporter/pdoexporter>
 
 .. toctree::
    :caption: 插件机制
