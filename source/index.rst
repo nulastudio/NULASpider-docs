@@ -21,6 +21,13 @@ NULASpider手册
    钩子系统 <hooks>
 
 .. toctree::
+   :caption: 插件机制
+
+   User 命名空间 <plugin/user_namespace>
+   PluginContract 接口 <plugin/plugincontract>
+   ExporterContract 接口 <plugin/exportercontract>
+
+.. toctree::
    :caption: Exporter
 
    Exporter <exporter>
