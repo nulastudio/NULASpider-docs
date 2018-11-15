@@ -12,7 +12,7 @@ thread
 logger
 ======
 
-用于程序中写入日志的 `Logger <https://github.com/php-fig/log/blob/master/Psr/Log/AbstractLogger.php>`_ ，接受任意符合 `PSR-3 <https://www.php-fig.org/psr/psr-3/>`_ 标准的 `Logger <https://github.com/php-fig/log/blob/master/Psr/Log/AbstractLogger.php>`_ 。默认为 :doc:`NullLogger <api/nulastudio/Log/NullLogger>` ，既不做任何日志记录。
+用于程序中写入日志的 `Logger <https://github.com/php-fig/log/blob/master/Psr/Log/AbstractLogger.php>`_ ，接受任意符合 `PSR-3 <https://www.php-fig.org/psr/psr-3/>`_ 标准的 `Logger 对象 <https://github.com/php-fig/log/blob/master/Psr/Log/AbstractLogger.php>`_ 。默认为 :doc:`NullLogger <api/nulastudio/Log/NullLogger>` ，既不做任何日志记录。
 
 scan_urls
 =========

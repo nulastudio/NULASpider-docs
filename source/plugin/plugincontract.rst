@@ -1,8 +1,8 @@
 .. _plugincontract:
 
-*******************
-PluginContract 接口
-*******************
+**************************************************
+nulastudio\\Spider\\Contracts\\PluginContract 接口
+**************************************************
 
 .. _methods:
 
@@ -40,6 +40,7 @@ install方法参数说明
 
 .. hint:: 所有的插件都必须实现这个接口！
 
+源代码解析
 
 .. code-block:: php
 

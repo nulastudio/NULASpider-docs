@@ -21,11 +21,22 @@ NULASpider手册
    钩子系统 <hooks>
 
 .. toctree::
+   :caption: 日志记录
+
+   设置 Logger <log/set_logger>
+   写入日志 <log/write_log>
+   LogLevel <log/loglevel>
+
+.. toctree::
    :caption: 插件机制
 
    User 命名空间 <plugin/user_namespace>
    PluginContract 接口 <plugin/plugincontract>
    ExporterContract 接口 <plugin/exportercontract>
+   bind 方法 <plugin/bind>
+   编写插件 <plugin/how_to_write_plugin>
+   registerExporter 方法 <plugin/register_exporter>
+   编写Exporter <plugin/how_to_write_exporter>
 
 .. toctree::
    :caption: Exporter
