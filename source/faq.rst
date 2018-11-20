@@ -9,7 +9,7 @@
 链接并不是放在a标签的href属性里，该怎么办？
 =========================================
 
-可以使用 `findUrlsOverride <../callback.html#findUrlsOverride>`_ 回调函数自行抓取url并返回。
+可以使用 `findUrlsOverride <./callback.html#findUrlsOverride>`_ 回调函数自行抓取url并返回。
 
 
 .. _can_not_fetch_the_field:
