@@ -50,6 +50,11 @@ NULASpider手册
    :caption: 插件机制
 
 .. toctree::
+   :caption: 常见问题
+
+   常见问题 <faq>
+
+.. toctree::
    :caption: API Reference
 
    nulastudio <api/nulastudio>
