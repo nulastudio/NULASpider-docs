@@ -53,6 +53,7 @@ NULASpider手册
    :caption: 常见问题
 
    常见问题 <faq>
+   神兵利刃 <useful_tools>
 
 .. toctree::
    :caption: API Reference
