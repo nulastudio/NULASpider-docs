@@ -52,6 +52,7 @@ NULASpider手册
 .. toctree::
    :caption: 常见问题
 
+   知识栈 <knowledge_stack>
    常见问题 <faq>
    神兵利刃 <useful_tools>
 
