@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, LiesAuer
+# This file is distributed under the same license as the NULASpider package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NULASpider \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-05 17:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/useful_tools.rst:5
+msgid "神兵利刃"
+msgstr ""
+
+#: ../../source/useful_tools.rst:8
+msgid "Postman"
+msgstr ""
+
+#: ../../source/useful_tools.rst:10
+msgid "网页、API、请求调试利器，用来分析、重放请求非常方便。"
+msgstr ""
+
+#: ../../source/useful_tools.rst:13
+msgid "Xpath Helper"
+msgstr ""
+
+#: ../../source/useful_tools.rst:15
+msgid "一款Chrome浏览器的开发者插件，能非常轻松地获取到页面某元素的Xpath路径。不要在浏览器复制完整的Xpath路径放到爬虫里面用，一定要自己按照实际情况精简！"
+msgstr ""
+

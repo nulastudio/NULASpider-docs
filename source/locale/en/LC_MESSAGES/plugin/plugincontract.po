@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, LiesAuer
+# This file is distributed under the same license as the NULASpider package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NULASpider \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-05 17:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/plugin/plugincontract.rst:5
+msgid "nulastudio\\\\Spider\\\\Contracts\\\\PluginContract 接口"
+msgstr ""
+
+#: ../../source/plugin/plugincontract.rst:10
+msgid "方法"
+msgstr ""
+
+#: ../../source/plugin/plugincontract.rst:13
+msgid "返回类型"
+msgstr ""
+
+#: ../../source/plugin/plugincontract.rst:13
+msgid "签名"
+msgstr ""
+
+#: ../../source/plugin/plugincontract.rst:13
+msgid "说明"
+msgstr ""
+
+#: ../../source/plugin/plugincontract.rst:15
+msgid "void"
+msgstr ""
+
+#: ../../source/plugin/plugincontract.rst:15
+msgid "public static function install($application, ...$params)"
+msgstr ""
+
+#: ../../source/plugin/plugincontract.rst:15
+msgid "无"
+msgstr ""
+
+#: ../../source/plugin/plugincontract.rst:19
+msgid "install方法参数说明"
+msgstr ""
+
+#: ../../source/plugin/plugincontract.rst:21
+msgid "$application，注入的程序，既当前的Spider对象。"
+msgstr ""
+
+#: ../../source/plugin/plugincontract.rst:22
+msgid "$params可变参数数组，当使用$spider->use()时传进来的参数。"
+msgstr ""
+
+#: ../../source/plugin/plugincontract.rst:24
+msgid "举个栗子"
+msgstr ""
+
+#: ../../source/plugin/plugincontract.rst:32
+msgid "此时，$params参数为"
+msgstr ""
+
+#: ../../source/plugin/plugincontract.rst:41
+msgid "所有的插件都必须实现这个接口！"
+msgstr ""
+
+#: ../../source/plugin/plugincontract.rst:43
+msgid "源代码解析"
+msgstr ""
+

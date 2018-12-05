@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, LiesAuer
+# This file is distributed under the same license as the NULASpider package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NULASpider \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-05 17:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/knowledge_stack.rst:5
+msgid "知识栈"
+msgstr ""
+
+#: ../../source/knowledge_stack.rst:14
+msgid "本文列举了在使用本框架时所需要的知识栈，不一定完整，仅供参考："
+msgstr ""
+
+#: ../../source/knowledge_stack.rst:8
+msgid "PHP5.x - 7.0知识"
+msgstr ""
+
+#: ../../source/knowledge_stack.rst:9
+msgid "PSR（PSR1、PSR2、PSR3、PSR4、PSR7、PSR11）"
+msgstr ""
+
+#: ../../source/knowledge_stack.rst:10
+msgid "CSS选择器"
+msgstr ""
+
+#: ../../source/knowledge_stack.rst:11
+msgid "XPath选择器"
+msgstr ""
+
+#: ../../source/knowledge_stack.rst:12
+msgid "HTTP协议报文格式"
+msgstr ""
+
+#: ../../source/knowledge_stack.rst:13
+msgid "Excel（导出表格以及描绘图表）"
+msgstr ""
+
+#: ../../source/knowledge_stack.rst:14
+msgid "数据库、PDO（MySQL为主）"
+msgstr ""
+
+#: ../../source/knowledge_stack.rst:15
+msgid "NULASpider运作原理（fields、回调、钩子是核心重点）"
+msgstr ""
+

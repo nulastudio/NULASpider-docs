@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, LiesAuer
+# This file is distributed under the same license as the NULASpider package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NULASpider \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-05 17:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/exporter/printoutexporter.rst:3
+msgid "PrintOutExporter"
+msgstr ""
+
+#: ../../source/exporter/printoutexporter.rst:8
+msgid "配置参数"
+msgstr ""
+
+#: ../../source/exporter/printoutexporter.rst:11
+msgid "参数名"
+msgstr ""
+
+#: ../../source/exporter/printoutexporter.rst:11
+msgid "类型"
+msgstr ""
+
+#: ../../source/exporter/printoutexporter.rst:11
+msgid "说明"
+msgstr ""
+
+#: ../../source/exporter/printoutexporter.rst:13
+msgid "type"
+msgstr ""
+
+#: ../../source/exporter/printoutexporter.rst:13
+msgid "string"
+msgstr ""
+
+#: ../../source/exporter/printoutexporter.rst:13
+msgid "print"
+msgstr ""
+
+#: ../../source/exporter/printoutexporter.rst:17
+msgid "Exporter说明"
+msgstr ""
+
+#: ../../source/exporter/printoutexporter.rst:19
+msgid "将数据使用 `print_r` 打印到控制台中，一般在调试阶段使用。"
+msgstr ""
+

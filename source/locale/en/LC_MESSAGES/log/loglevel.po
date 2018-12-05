@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, LiesAuer
+# This file is distributed under the same license as the NULASpider package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NULASpider \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-05 17:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/log/loglevel.rst:5
+msgid "Psr\\\\Log\\\\LogLevel"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:10
+msgid "常量"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:13
+msgid "类型"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:13
+msgid "常量名"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:13
+msgid "常量值"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:13
+msgid "说明"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:15 ../../source/log/loglevel.rst:17
+#: ../../source/log/loglevel.rst:19 ../../source/log/loglevel.rst:21
+#: ../../source/log/loglevel.rst:23 ../../source/log/loglevel.rst:25
+#: ../../source/log/loglevel.rst:27 ../../source/log/loglevel.rst:29
+msgid "string"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:15
+msgid "EMERGENCY"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:15
+msgid "emergency"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:17
+msgid "ALERT"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:17
+msgid "alert"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:19
+msgid "CRITICAL"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:19
+msgid "critical"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:21
+msgid "ERROR"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:21
+msgid "error"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:23
+msgid "WARNING"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:23
+msgid "warning"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:25
+msgid "NOTICE"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:25
+msgid "notice"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:27
+msgid "INFO"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:27
+msgid "info"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:29
+msgid "DEBUG"
+msgstr ""
+
+#: ../../source/log/loglevel.rst:29
+msgid "debug"
+msgstr ""
+

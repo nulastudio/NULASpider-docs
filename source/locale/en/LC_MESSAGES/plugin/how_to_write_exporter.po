@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, LiesAuer
+# This file is distributed under the same license as the NULASpider package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NULASpider \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-05 17:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/plugin/how_to_write_exporter.rst:5
+msgid "编写Exporter"
+msgstr ""
+
+#: ../../source/plugin/how_to_write_exporter.rst:7
+msgid "下面教大家怎么编写一个写文件的Exporter，以便大家了解Exporter编写的基本过程。"
+msgstr ""
+
+#: ../../source/plugin/how_to_write_exporter.rst:9
+msgid ""
+"首先我们创建一个 `WriteToFileExporter.php` 文件，Exporter需要放于 `User\\\\Exporters` "
+"命名空间中，并且实现 `nulastudio\\\\Spider\\\\Contracts\\\\ExporterContract` 接口。"
+msgstr ""
+
+#: ../../source/plugin/how_to_write_exporter.rst:33
+msgid "此外，我们还需要编写一个 `WriteToFileExporter` 插件来使用我们的Exporter，不然Exporter是无法单独使用的。"
+msgstr ""
+
+#: ../../source/plugin/how_to_write_exporter.rst:62
+msgid "这样我们的Exporter就已经编写完毕了，可以在程序中使用了。下面的程序中会将我们抓取到的数据写到对应的文件中。"
+msgstr ""
+

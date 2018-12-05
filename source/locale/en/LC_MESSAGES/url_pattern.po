@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, LiesAuer
+# This file is distributed under the same license as the NULASpider package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NULASpider \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-05 17:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/url_pattern.rst:5
+msgid "URL匹配模式"
+msgstr ""
+
+#: ../../source/url_pattern.rst:10
+msgid "URL目前支持以下匹配模式，通常地，完全匹配模式多用于匹配入口URL，正则匹配模式和回调匹配模式多用于匹配列表URL以及内容URL。"
+msgstr ""
+
+#: ../../source/url_pattern.rst:8 ../../source/url_pattern.rst:17
+msgid "完全匹配模式"
+msgstr ""
+
+#: ../../source/url_pattern.rst:9 ../../source/url_pattern.rst:32
+msgid "正则匹配模式"
+msgstr ""
+
+#: ../../source/url_pattern.rst:10 ../../source/url_pattern.rst:47
+msgid "回调匹配模式"
+msgstr ""
+
+#: ../../source/url_pattern.rst:12
+msgid "当指定多条匹配项时，只需满足其中一条即可"
+msgstr ""
+
+#: ../../source/url_pattern.rst:18
+msgid "指定一条匹配式，若待匹配的URL与匹配式完全一致则成功匹配。"
+msgstr ""
+
+#: ../../source/url_pattern.rst:33
+msgid "指定一条正则匹配式，若待匹配的URL符合正则匹配式则成功匹配。"
+msgstr ""
+
+#: ../../source/url_pattern.rst:48
+msgid "指定一条回调匹配式，若回调函数返回 :code:`true` 则成功匹配，回调函数接受一个字符串参数，其值为待匹配URL。"
+msgstr ""
+

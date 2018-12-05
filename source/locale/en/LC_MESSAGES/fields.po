@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, LiesAuer
+# This file is distributed under the same license as the NULASpider package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NULASpider \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-05 17:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/fields.rst:5
+msgid "fields"
+msgstr ""
+
+#: ../../source/fields.rst:12
+msgid "fields目前支持以下形式的选择器抓取数据。通过灵活配置可配置出强大的抓取规则。"
+msgstr ""
+
+#: ../../source/fields.rst:8 ../../source/fields.rst:15
+msgid "简单xpath"
+msgstr ""
+
+#: ../../source/fields.rst:9 ../../source/fields.rst:30
+msgid "数组"
+msgstr ""
+
+#: ../../source/fields.rst:10 ../../source/fields.rst:108
+msgid "简单回调"
+msgstr ""
+
+#: ../../source/fields.rst:17
+msgid "选取第一条与xpath匹配的数据。"
+msgstr ""
+
+#: ../../source/fields.rst:32
+msgid "数组形式支持最完整的选择器以及参数控制。"
+msgstr ""
+
+#: ../../source/fields.rst:35
+msgid "source参数"
+msgstr ""
+
+#: ../../source/fields.rst:40
+msgid "可选。当设置了source参数，$content将被source参数的结果覆盖，source参数支持以下类型："
+msgstr ""
+
+#: ../../source/fields.rst:38
+msgid "Request对象"
+msgstr ""
+
+#: ../../source/fields.rst:39
+msgid "Response对象"
+msgstr ""
+
+#: ../../source/fields.rst:40
+msgid "callback"
+msgstr ""
+
+#: ../../source/fields.rst:42
+msgid "当设置为Request对象时，尝试对Request发起请求，并使用返回的Response的内容作为$content。额外的可设置is_ajax参数以及auto_referer参数。"
+msgstr ""
+
+#: ../../source/fields.rst:44
+msgid "当设置为Response对象时，尝试使用Response的内容作为$content。"
+msgstr ""
+
+#: ../../source/fields.rst:50
+msgid "当设置为有效的callback时，尝试使用回调返回的值作为$content。回调接受4个参数："
+msgstr ""
+
+#: ../../source/fields.rst:47
+msgid "$content，原$content内容。"
+msgstr ""
+
+#: ../../source/fields.rst:48 ../../source/fields.rst:81
+#: ../../source/fields.rst:90 ../../source/fields.rst:112
+msgid "$spider，Spider对象。"
+msgstr ""
+
+#: ../../source/fields.rst:49 ../../source/fields.rst:82
+#: ../../source/fields.rst:91 ../../source/fields.rst:113
+msgid "$request，当前的Request对象。"
+msgstr ""
+
+#: ../../source/fields.rst:50 ../../source/fields.rst:83
+#: ../../source/fields.rst:92 ../../source/fields.rst:114
+msgid "$response，当前的Response对象。"
+msgstr ""
+
+#: ../../source/fields.rst:53
+msgid "is_ajax参数"
+msgstr ""
+
+#: ../../source/fields.rst:55
+msgid ""
+"可选。仅当source参数设为Request对象时有效， :code:`is_ajax` 为 :code:`true` "
+"时，尝试对Request对象设置一个 :code:`X-Requested-With: XMLHttpRequest` 请求头。"
+msgstr ""
+
+#: ../../source/fields.rst:58
+msgid "auto_referer参数"
+msgstr ""
+
+#: ../../source/fields.rst:60
+msgid ""
+"可选。仅当source参数设为Request对象时有效， :code:`auto_referer` 为 :code:`true` "
+"时，尝试对Request对象设置一个 :code:`Referer` 请求头。"
+msgstr ""
+
+#: ../../source/fields.rst:63
+msgid "type参数"
+msgstr ""
+
+#: ../../source/fields.rst:70
+msgid "必需。支持以下类型："
+msgstr ""
+
+#: ../../source/fields.rst:66
+msgid ":code:`xpath`"
+msgstr ""
+
+#: ../../source/fields.rst:67
+msgid ":code:`css`"
+msgstr ""
+
+#: ../../source/fields.rst:68
+msgid ":code:`regex`"
+msgstr ""
+
+#: ../../source/fields.rst:69
+msgid ":code:`callback`"
+msgstr ""
+
+#: ../../source/fields.rst:70
+msgid ":code:`raw`"
+msgstr ""
+
+#: ../../source/fields.rst:72
+msgid ""
+"默认为 :code:`xpath` 。当设为 :code:`raw` "
+"时，直接将当前$content作为抓取数据返回，若设置了source参数，则使用source参数所返回的结果。"
+msgstr ""
+
+#: ../../source/fields.rst:74
+msgid "并不支持jquery选择器，jquery选择器与css选择器是有差别的。"
+msgstr ""
+
+#: ../../source/fields.rst:77
+msgid "selector参数"
+msgstr ""
+
+#: ../../source/fields.rst:83
+msgid ""
+"可选。具体用于抓取数据的选择器。仅当type参数为 :code:`raw` 时可省略。当设为 :code:`callback` "
+"时，回调接受4个参数："
+msgstr ""
+
+#: ../../source/fields.rst:80 ../../source/fields.rst:111
+msgid "$content，从该内容中选取数据。"
+msgstr ""
+
+#: ../../source/fields.rst:86
+msgid "callback参数"
+msgstr ""
+
+#: ../../source/fields.rst:92
+msgid "可选。用于对选取后的数据进行后处理，回调接受4个参数并返回处理后的数据："
+msgstr ""
+
+#: ../../source/fields.rst:89
+msgid "$field，抓取到的数据。"
+msgstr ""
+
+#: ../../source/fields.rst:94
+msgid "当设置了repeated参数时，$field的类型应该是抓取到的字段数组，其他情况下$field的类型视具体的source参数、type参数以及selector参数而定。"
+msgstr ""
+
+#: ../../source/fields.rst:98
+msgid "fields参数"
+msgstr ""
+
+#: ../../source/fields.rst:100
+msgid "可选。从当前的字段中递归选取子级数据。fields的结构完全一致。"
+msgstr ""
+
+#: ../../source/fields.rst:103
+msgid "repeated参数"
+msgstr ""
+
+#: ../../source/fields.rst:105
+msgid "可选。表示当前的字段是重复的。抓取到的字段会转为数组。"
+msgstr ""
+
+#: ../../source/fields.rst:114
+msgid "选取由回调返回的数据。回调接受4个参数："
+msgstr ""
+

@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, LiesAuer
+# This file is distributed under the same license as the NULASpider package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NULASpider \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-05 17:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/plugin/how_to_write_plugin.rst:5
+msgid "编写插件"
+msgstr ""
+
+#: ../../source/plugin/how_to_write_plugin.rst:7
+msgid "下面教大家怎么编写一个Foo插件，以便大家了解插件编写的基本过程。"
+msgstr ""
+
+#: ../../source/plugin/how_to_write_plugin.rst:9
+msgid ""
+"首先我们创建一个 `Foo.php` 文件，插件需要放于 `User\\\\Plugins` 命名空间中，并且实现 "
+"`nulastudio\\\\Spider\\\\Contracts\\\\PluginContract` 接口。"
+msgstr ""
+
+#: ../../source/plugin/how_to_write_plugin.rst:27
+msgid "然后我们需要使用 `bind` 方法将我们的功能绑定到程序中。"
+msgstr ""
+
+#: ../../source/plugin/how_to_write_plugin.rst:48
+msgid "这样我们的插件就已经编写完毕了，可以在程序中使用了。下面的程序中当爬虫启动时就会输出我们插件的内容。"
+msgstr ""
+

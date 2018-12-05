@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, LiesAuer
+# This file is distributed under the same license as the NULASpider package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NULASpider \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-05 17:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/log/set_logger.rst:5
+msgid "设置 Logger"
+msgstr ""
+
+#: ../../source/log/set_logger.rst:8
+msgid "config配置中设置"
+msgstr ""
+
+#: ../../source/log/set_logger.rst:10
+msgid "直接设置config配置的logger参数。"
+msgstr ""
+
+#: ../../source/log/set_logger.rst:21
+msgid "动态更改设置"
+msgstr ""
+
+#: ../../source/log/set_logger.rst:23
+msgid ""
+"创建爬虫程序后任意时刻调用 `$spider->setLogger(new XXXLogger)` "
+"即可更改Logger。不建议随便更改Logger。"
+msgstr ""
+
+#: ../../source/log/set_logger.rst:25
+msgid ""
+"仅支持符合 `PSR-3 <https://www.php-fig.org/psr/psr-3/>`_ 标准的 `Logger "
+"<https://github.com/php-fig/log/blob/master/Psr/Log/AbstractLogger.php>`_"
+" 。"
+msgstr ""
+

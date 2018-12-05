@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, LiesAuer
+# This file is distributed under the same license as the NULASpider package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NULASpider \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-05 17:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/exporter/pdoexporter.rst:3
+msgid "PDOExporter"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:8
+msgid "配置参数"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:11
+msgid "参数名"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:11
+msgid "类型"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:11
+msgid "说明"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:13
+msgid "type"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:13
+#: ../../source/exporter/pdoexporter.rst:15
+#: ../../source/exporter/pdoexporter.rst:17
+#: ../../source/exporter/pdoexporter.rst:19
+#: ../../source/exporter/pdoexporter.rst:21
+msgid "string"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:13
+msgid "pdo"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:15
+msgid "dsn"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:15
+msgid "连接字符串"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:17
+msgid "username"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:17
+msgid "登录用户名"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:19
+msgid "password"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:19
+msgid "登录密码"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:21
+msgid "table"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:21
+msgid "导出表"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:23
+msgid "options"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:23
+msgid "array"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:23
+msgid "传递到PDO的options"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:27
+msgid "Exporter说明"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:29
+msgid "将数据导出到数据库中，不支持导出嵌套数据以及复合数据。"
+msgstr ""
+
+#: ../../source/exporter/pdoexporter.rst:31
+msgid "暂时无法使用！"
+msgstr ""
+

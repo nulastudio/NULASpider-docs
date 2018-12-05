@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, LiesAuer
+# This file is distributed under the same license as the NULASpider package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NULASpider \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-05 17:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/hooks.rst:5
+msgid "钩子系统"
+msgstr ""
+
+#: ../../source/hooks.rst:9
+msgid "钩子概览"
+msgstr ""
+
+#: ../../source/hooks.rst:8
+msgid "`beforeRequest`_"
+msgstr ""
+
+#: ../../source/hooks.rst:9
+msgid "`beforeExit`_"
+msgstr ""
+
+#: ../../source/hooks.rst:12
+msgid "beforeRequest"
+msgstr ""
+
+#: ../../source/hooks.rst:16
+msgid "在爬虫程序发起一个请求前执行。钩子接受两个参数："
+msgstr ""
+
+#: ../../source/hooks.rst:15 ../../source/hooks.rst:22
+msgid "$spider，当前的爬虫程序。"
+msgstr ""
+
+#: ../../source/hooks.rst:16
+msgid "$request，当前的Request请求对象。"
+msgstr ""
+
+#: ../../source/hooks.rst:19
+msgid "beforeExit"
+msgstr ""
+
+#: ../../source/hooks.rst:22
+msgid "在爬虫程序终止前执行，在 `on_exit` 回调之前执行。钩子接受两个参数："
+msgstr ""
+
+#: ../../source/hooks.rst:23
+msgid "$exit_code，退出状态码，正常退出时为0。"
+msgstr ""
+

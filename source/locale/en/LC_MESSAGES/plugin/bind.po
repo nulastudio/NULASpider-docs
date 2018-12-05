@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, LiesAuer
+# This file is distributed under the same license as the NULASpider package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NULASpider \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-05 17:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/plugin/bind.rst:5
+msgid "bind 方法"
+msgstr ""
+
+#: ../../source/plugin/bind.rst:8
+msgid "返回类型"
+msgstr ""
+
+#: ../../source/plugin/bind.rst:8
+msgid "签名"
+msgstr ""
+
+#: ../../source/plugin/bind.rst:8
+msgid "说明"
+msgstr ""
+
+#: ../../source/plugin/bind.rst:10
+msgid "void"
+msgstr ""
+
+#: ../../source/plugin/bind.rst:10
+msgid "public function bind(string $name, $provider)"
+msgstr ""
+
+#: ../../source/plugin/bind.rst:10
+msgid "动态绑定"
+msgstr ""
+
+#: ../../source/plugin/bind.rst:13
+msgid "`bind` 方法是实现插件机制的核心方法。通过该方法，你可以将任意类型的东西动态绑定到程序中。"
+msgstr ""
+
+#: ../../source/plugin/bind.rst:15
+msgid "为防止过多的对象绑定导致内存剧增，可以使用匿名函数包装起来进行懒创建，用到的时候按需创建。"
+msgstr ""
+
+#: ../../source/plugin/bind.rst:28
+msgid "对于 `callable` 类型的绑定，可直接调用，且程序会自动将自身注入到第一个参数中。"
+msgstr ""
+
+#: ../../source/plugin/bind.rst:42
+msgid "但如果先取出来再调用，需要手动注入$application参数。"
+msgstr ""
+
+#: ../../source/plugin/bind.rst:57
+msgid "懒创建栗子"
+msgstr ""
+
