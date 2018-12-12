@@ -7,6 +7,11 @@ NULASpider手册
    首页 <self>
 
 .. toctree::
+   :caption: 入门
+
+   入门 <get-started>
+
+.. toctree::
    :caption: 配置
 
    config <config>
