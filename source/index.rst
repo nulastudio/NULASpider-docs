@@ -45,15 +45,13 @@ NULASpider手册
    编写Exporter <plugin/how_to_write_exporter>
 
 .. toctree::
-   :caption: Exporter
+   :caption: 导出器
 
-   Exporter <exporter>
-   ExcelExporter <exporter/excelexporter>
-   PrintOutExporter <exporter/printoutexporter>
-   PDOExporter <exporter/pdoexporter>
-
-.. toctree::
-   :caption: 插件机制
+   使用导出器 <exporter>
+   Excel导出器 <exporter/excelexporter>
+   调试导出器 <exporter/printoutexporter>
+   数据库导出器 <exporter/pdoexporter>
+   新数据库导出器 <exporter/databaseexporter>
 
 .. toctree::
    :caption: 常见问题

@@ -1,42 +1,49 @@
-********
-Exporter
-********
+.. _how-to-use-exporter:
 
-.. toctree::
+**********
+使用导出器
+**********
 
-   ExcelExporter <exporter/excelexporter>
-   PrintOutExporter <exporter/printoutexporter>
-   PDOExporter <exporter/pdoexporter>
+.. _how-to-import-and-use-exporter:
 
-Exporter的使用
-==============
-
-首先Exporter也是通过插件机制加载到爬虫程序中的，所以使用Exporter前需要先加载Exporter插件（在启动爬虫之前加载即可）。
+注入和使用导出器
+================
 
 .. code-block:: php
 
-    // 用到哪个加载哪个
-    $spider->use(User\Plugins\ExcelExporter::class);
-    $spider->use(User\Plugins\PrintOutExporter::class);
-
-
-这样子在config里配置export参数才能使用对应的Exporter。
-
-.. code-block:: php
-
-    $config['export'] = [
-        'type'  => 'excel',
-        'file'  => 'path/to/excel/document',
-        'sheet' => 'SpiderData',
+    $config = [
+        'export'              => [
+            // 程序根据type匹配出合适的导出器
+            'type'  => 'excel',
+            // 其余参数根据每个导出器的不同具体配置
+            'file'  => DIR_DATA . '/blog.xlsx',
+            'sheet' => 'sheet name',
+        ],
     ];
 
+    $spider = new Spider($config);
 
-Exporter的原理
-==============
+    // 可以同时注入多个导出器，并不会造成冲突
+    // 但不建议全都写上，因为导出器可能会注册钩子拖慢系统运行（尽管注册的钩子只是空运行）
+    $spider->use(User\Plugins\ExcelExporter::class);
+    $spider->use(User\Plugins\PrintOutExporter::class);
+    $spider->use(User\Plugins\PDOExporter::class);
 
-Exporter插件在爬虫启动加载时会向爬虫程序注册一个Exporter Type，然后会占用 `on_export` 回调函数，当爬虫抓取完页面数据时会通过type参数找到适合的Exporter并使用export配置进行懒加载，最后调用Exporter的export方法进行数据的导出入库。
+    $spider->start();
 
-.. hint:: `on_export` 回调以及Exporter只能二选一，不能同时使用，因为两者都需要占用 `on_export` 回调函数
 
-.. hint:: 当多个Exporter注册同一个Exporter Type时，后注册的Exporter会覆盖前者。
+.. _exporter-vs-on-export:
 
+导出器 VS on_export
+===================
+
+导出器实际上也是通过 `on_export` 回调函数完成数据导出入库的，这也就意味着导出器和 `on_export` 回调函数你只能二选一，不能同时使用，在导出器能满足的情况下请尽量少用 `on_export` 回调函数。
+
+.. hint:: 当多个导出器使用了同一个 `type` 时，最后注入的导出器将会被使用。
+
+.. _handle-unsupported-data:
+
+处理复合数据
+============
+
+默认的，程序会将数组类型的数据使用 `json_encode` 进行序列化导出，此行为可能会被具体的导出器所改变。
