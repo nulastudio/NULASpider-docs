@@ -39,10 +39,11 @@ NULASpider手册
    User 命名空间 <plugin/user_namespace>
    PluginContract 接口 <plugin/plugincontract>
    ExporterContract 接口 <plugin/exportercontract>
+   AbstructExporter 抽象类 <plugin/abstructexporter>
    bind 方法 <plugin/bind>
    编写插件 <plugin/how_to_write_plugin>
    registerExporter 方法 <plugin/register_exporter>
-   编写Exporter <plugin/how_to_write_exporter>
+   编写导出器 <plugin/how_to_write_exporter>
 
 .. toctree::
    :caption: 导出器

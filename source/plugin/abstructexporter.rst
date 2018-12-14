@@ -1,8 +1,8 @@
-.. _exporter-contract:
+.. _abstruct-exporter:
 
-****************************************************
-nulastudio\\Spider\\Contracts\\ExporterContract 接口
-****************************************************
+******************************************************
+nulastudio\\Spider\\Contracts\\AbstructExporter 抽象类
+******************************************************
 
 .. _methods:
 
@@ -20,3 +20,5 @@ nulastudio\\Spider\\Contracts\\ExporterContract 接口
 +----------+----------------------------------------------+-----------------------------------+
 
 .. hint:: 所有的导出器都必须实现 `nulastudio\\Spider\\Contracts\\ExporterContract` 接口或者继承于 `nulastudio\\Spider\\Contracts\\AbstructExporter` 抽象类！
+
+.. hint:: `nulastudio\\Spider\\Contracts\\AbstructExporter` 抽象类提供了默认的复合数据处理方式，对数组数据使用 `json_encode` 进行数据的序列化，对其他复合数据进行 `string` 类型的强转。

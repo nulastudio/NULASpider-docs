@@ -1,28 +1,14 @@
-.. _how_to_write_plugin:
+.. _how-to-write-plugin:
 
 ********
 编写插件
 ********
 
-下面教大家怎么编写一个Foo插件，以便大家了解插件编写的基本过程。
+下面教大家怎么编写一个 `Foo` 插件，以便大家了解插件编写的基本过程。
 
-首先我们创建一个 `Foo.php` 文件，插件需要放于 `User\\Plugins` 命名空间中，并且实现 `nulastudio\\Spider\\Contracts\\PluginContract` 接口。
+首先我们创建一个 `Foo.php` 文件，放于程序目录的 `User/Plugins` 下，程序启动时会自动引用插件文件。
 
-.. code-block:: php
-
-    <?php
-
-    namespace User\Plugins;
-
-    use nulastudio\Spider\Contracts\PluginContract;
-
-    class Foo implements PluginContract
-    {
-        public static function install($application, ...$params)
-        {
-        }
-    }
-
+插件需要存在于 `User\\Plugins` 命名空间内，并且实现 `nulastudio\\Spider\\Contracts\\PluginContract` 接口。
 
 然后我们需要使用 `bind` 方法将我们的功能绑定到程序中。
 
@@ -65,5 +51,3 @@
     $spider->use(User\Plugins\Foo::class);
 
     $spider->run();
-
-
